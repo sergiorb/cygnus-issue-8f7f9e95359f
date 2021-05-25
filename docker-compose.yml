@@ -19,9 +19,11 @@ services:
     image: fiware/orion:2.5.0
     expose:
       - "1026"
+    ports:
+      - 1026:1026
     depends_on:
       - mongodb
-    command: -dbhost mongodb
+    command: -dbhost mongodb -logLevel DEBUG
 
   cygnus:
     image: fiware/cygnus-ngsi:2.7.0
@@ -60,6 +62,7 @@ services:
       - '7896'
     ports:
       - 4041:4041
+      - 7896:7896
     depends_on:
       - mongodb
       - rabbitmq

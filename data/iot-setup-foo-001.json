@@ -1,0 +1,28 @@
+
+{
+  "devices": [
+    {
+      "device_id": "foo_001",
+      "entity_name": "urn:ngsi-ld:foo:001",
+      "entity_type": "foo",
+      "timezone": "Europe/Madrid",
+      "attributes": [
+        {
+          "object_id": "t",
+          "name": "temperature",
+          "type": "Integer"
+        },
+        {
+          "object_id": "h",
+          "name": "humidity",
+          "type": "Integer"
+        },
+        {
+          "object_id": "c",
+          "name": "co2",
+          "type": "Integer"
+        }
+      ]
+    }
+  ]
+}

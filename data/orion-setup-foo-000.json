@@ -1,0 +1,14 @@
+{
+  "description": "foo_000 susbcription to cygnus",
+  "subject": {
+    "entities": [{
+      "idPattern": "foo_000"
+    }]
+  },
+  "notification": {
+    "http": {
+      "url": "http://cygnus:5050/notify"
+    },
+    "attrsFormat": "legacy"
+  }
+}

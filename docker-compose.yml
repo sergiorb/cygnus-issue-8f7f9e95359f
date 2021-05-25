@@ -1,0 +1,86 @@
+version: "3.7"
+
+volumes:
+  my-mongodb:
+
+services:
+
+  mongodb:
+    image: mongo:3.2
+    expose:
+      - "27017"
+    ports:
+      - 27017:27017
+    command: --smallfiles --wiredTigerCacheSizeGB 4
+    volumes:
+      - my-mongodb:/data/db
+
+  orion:
+    image: fiware/orion:2.5.0
+    expose:
+      - "1026"
+    depends_on:
+      - mongodb
+    command: -dbhost mongodb
+
+  cygnus:
+    image: fiware/cygnus-ngsi:2.7.0
+    expose:
+      - "5050"
+      - "5051"
+      - "5052"
+      - "5080"
+    depends_on:
+      - mongodb
+      - orion
+    environment:
+      - CYGNUS_LOG_LEVEL=ERROR
+      - CYGNUS_SKIP_CONF_GENERATION=true
+    volumes:
+      - ./config/cygnus/agent.conf:/opt/apache-flume/conf/agent.conf
+      - ./config/cygnus/name_mappings_ckan.conf:/opt/apache-flume/conf/name_mappings_ckan.conf
+
+  rabbitmq:
+    image: rabbitmq:3.7.18-management
+    expose:
+      - "5672"
+      - "15672"
+      - "25672"
+
+  mosquitto:
+    image: eclipse-mosquitto:1.6.12
+    expose:
+      - "1883"
+      - "9001"
+
+  iot-agent-ul:
+    image: fiware/iotagent-ul
+    expose:
+      - '4041'
+      - '7896'
+    ports:
+      - 4041:4041
+    depends_on:
+      - mongodb
+      - rabbitmq
+      - mosquitto
+    environment:
+      - IOTA_CB_HOST=orion
+      - IOTA_CB_PORT=1026
+      - IOTA_NORTH_PORT=4041
+      - IOTA_REGISTRY_TYPE=mongodb
+      - IOTA_MONGO_HOST=mongodb
+      - IOTA_MONGO_PORT=27017
+      - IOTA_MONGO_DB=iotagent-ul
+      - IOTA_MONGO_RETRIES=50
+      - IOTA_MONGO_RETRY_TIME=5
+      - IOTA_HTTP_PORT=7896
+      - IOTA_PROVIDER_URL=http://iot-agent-ul:4041
+      - IOTA_MQTT_HOST=mosquitto
+      - IOTA_MQTT_PORT=1883
+      - IOTA_MQTT_QOS=1
+      - IOTA_AMQP_HOST=rabbitmq
+      - IOTA_AMQP_PORT=5672
+      - IOTA_AMQP_EXCHANGE=Direct
+      - IOTA_AMQP_RETRIES=50
+      - IOTA_AMQP_RETRY_TIME=10

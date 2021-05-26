@@ -87,3 +87,4 @@ services:
       - IOTA_AMQP_EXCHANGE=Direct
       - IOTA_AMQP_RETRIES=50
       - IOTA_AMQP_RETRY_TIME=10
+      - IOTA_CB_NGSI_VERSION=v2

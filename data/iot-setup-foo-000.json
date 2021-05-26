@@ -3,7 +3,7 @@
   "devices": [
     {
       "device_id": "foo_000",
-      "entity_name": "urn:ngsi-ld:foo:000",
+      "entity_name": "foo_000",
       "entity_type": "foo",
       "timezone": "Europe/Madrid",
       "attributes": [

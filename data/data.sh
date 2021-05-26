@@ -8,3 +8,4 @@ iot_ul_host="localhost"
 iot_ul_port="7896"
 deviceId_000="foo_000"
 deviceId_001="foo_001"
+attrName='co2'

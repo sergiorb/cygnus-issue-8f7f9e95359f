@@ -1,0 +1,494 @@
+/* 1 */
+{
+    "_id" : {
+        "entityId" : "foo_001",
+        "entityType" : "foo",
+        "attrName" : "co2",
+        "origin" : ISODate("2021-05-27T07:00:00.000Z"),
+        "resolution" : "minute",
+        "range" : "hour"
+    },
+    "points" : [ 
+        {
+            "offset" : 0,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 1,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 2,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 3,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 4,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 5,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 6,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 7,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 8,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 9,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 10,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 11,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 12,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 13,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 14,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 15,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 16,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 17,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 18,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 19,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 20,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 21,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 22,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 23,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 24,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 25,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 26,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 27,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 28,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 29,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 30,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 31,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 32,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 33,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 34,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 35,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 36,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 37,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 38,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 39,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 40,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 41,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 42,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 43,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 44,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 45,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 46,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 47,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 48,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 49,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 50,
+            "samples" : 2,
+            "sum" : 5130.0,
+            "sum2" : 25163450.0,
+            "min" : 115.0,
+            "max" : 5015.0
+        }, 
+        {
+            "offset" : 51,
+            "samples" : 2,
+            "sum" : 5130.0,
+            "sum2" : 25310900.0,
+            "min" : 100.0,
+            "max" : 5030.0
+        }, 
+        {
+            "offset" : 52,
+            "samples" : 2,
+            "sum" : 5130.0,
+            "sum2" : 25459250.0,
+            "min" : 85.0,
+            "max" : 5045.0
+        }, 
+        {
+            "offset" : 53,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 54,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 55,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 56,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 57,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 58,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }, 
+        {
+            "offset" : 59,
+            "samples" : 0,
+            "sum" : 0,
+            "sum2" : 0,
+            "min" : Infinity,
+            "max" : -Infinity
+        }
+    ],
+    "attrType" : "Integer"
+}

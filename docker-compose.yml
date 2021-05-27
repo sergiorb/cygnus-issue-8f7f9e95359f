@@ -36,7 +36,7 @@ services:
       - mongodb
       - orion
     environment:
-      - CYGNUS_LOG_LEVEL=ERROR
+      - CYGNUS_LOG_LEVEL=DEBUG
       - CYGNUS_SKIP_CONF_GENERATION=true
     volumes:
       - ./config/cygnus/agent.conf:/opt/apache-flume/conf/agent.conf

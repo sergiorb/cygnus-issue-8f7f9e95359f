@@ -12,7 +12,9 @@ idashost = sys.argv[2]
 ul20port = sys.argv[3]
 deviceID = sys.argv[4]
 timestamp = sys.argv[5]
-lastValue = 100
+startValue = int(sys.argv[6])
+minValue = int(sys.argv[7])
+maxValue = int(sys.argv[8])
 direction = "up"
 
 logger = logging.getLogger()
@@ -61,11 +63,11 @@ while True:
 
     logger.info(f'({str(now)}) ---------------------------------------------------------------')
 
-    lastValue, direction = generateValue(lastValue, direction, 50, 150)
+    startValue, direction = generateValue(startValue, direction, minValue, maxValue)
 
-    logger.info(f'value: {lastValue}')
+    logger.info(f'value: {startValue}')
 
-    stationData = f'h|{lastValue}|c|{lastValue}|t|{lastValue}'
+    stationData = f'h|{startValue}|c|{startValue}|t|{startValue}'
                   
     sendData(deviceID, stationData)
 
